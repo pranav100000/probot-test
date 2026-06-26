@@ -1,0 +1,16 @@
+{
+  "name": "workspace-connect-fix",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Reproduction and fix for the production 'Failed to connect workspace' unhandled-rejection (Sentry WEB-SZ).",
+  "scripts": {
+    "test": "bun test",
+    "repro": "bun run repro/unhandled-rejection.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.14",
+    "typescript": "^5.6.0"
+  }
+}
