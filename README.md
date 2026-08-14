@@ -30,4 +30,10 @@ A minimal Python project used for testing repository automation and GitHub workf
 
 ## Development
 
-There are currently no external dependencies or automated tests configured. Add tests and dependency management as the project grows.
+Run the test suite with Python's built-in `unittest` runner:
+
+```bash
+python3 -m unittest discover
+```
+
+The project currently has no committed tests, so this command may report that zero tests were run until tests are added.
